@@ -1,0 +1,43 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #5573d3, #e2e2e2);
+    color: #0b2248;
+    background-image: url(https://cdn.pixabay.com/photo/2023/10/01/14/40/medicine-8287535_1280.jpg);
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(39, 4, 79, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color: #2c87cd;
+    text-shadow: 2px 2px 4px rgba(38, 27, 70, 0.2);
+}
+
+label {
+    font-weight: bold;
+    color: #113a6c;
+}
+
+input[type="text"] {
+    width: calc(100% - 80px);
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #230233;
+    border-radius: 4px;
+    font-size: 16px;
+    box-shadow: 2px 2px 4px rgba(23, 4, 92, 0.1);
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff
